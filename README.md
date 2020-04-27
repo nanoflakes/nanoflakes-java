@@ -6,7 +6,7 @@ Licensed under the [MIT License](https://github.com/nanoflakes/nanoflakes-java/b
 
 ### Installation
 
-![Latest Version](https://api.bintray.com/packages/arudiscord/maven/snowflake/images/download.svg)
+![Latest Version](https://api.bintray.com/packages/nanoflakes/maven/nanoflakes-java/images/download.svg)
 
 Using in Gradle:
 
