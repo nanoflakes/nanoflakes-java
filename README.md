@@ -1,22 +1,25 @@
 # Nanoflakes - Java
 
+[![Maven metadata URL](https://img.shields.io/maven-metadata/v?metadataUrl=https%3A%2F%2Fmaven.cafeteria.dev%2Freleases%2Fcom%2Fgithub%2Fnanoflakes%2Fnanoflakes-java%2Fmaven-metadata.xml)](https://maven.cafeteria.dev/releases/com/github/nanoflakes/nanoflakes-java)
+[![GitHub issues](https://img.shields.io/github/issues/nanoflakes/nanoflakes-java)](https://github.com/nanoflakes/nanoflakes-java/issues)
+[![License](https://img.shields.io/github/license/nanoflakes/nanoflakes-java)](https://github.com/nanoflakes/nanoflakes-java/tree/master/LICENSE)
+[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fnanoflakes%2Fnanoflakes-java)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fnanoflakes%2Fnanoflakes-java)
+
 Reference implementation of [nanoflakes](https://github.com/nanoflakes/nanoflakes) for Java.
 
 Licensed under the [MIT License](https://github.com/nanoflakes/nanoflakes-java/blob/master/LICENSE).
 
 ### Installation
 
-![Latest Version](https://api.bintray.com/packages/nanoflakes/maven/nanoflakes-java/images/download.svg)
-
 Using in Gradle:
 
 ```gradle
 repositories {
-  jcenter()
+  maven { url = 'https://maven.cafeteria.dev' }
 }
 
 dependencies {
-  compile 'com.github.nanoflakes:nanoflakes-java:LATEST' // replace LATEST with the version above
+  implementation 'com.github.nanoflakes:nanoflakes-java:VERSION'
 }
 ```
 
@@ -24,19 +27,19 @@ Using in Maven:
 
 ```xml
 <repositories>
-  <repository>
-    <id>central</id>
-    <name>bintray</name>
-    <url>http://jcenter.bintray.com</url>
-  </repository>
+    <repository>
+        <id>cafeteria</id>
+        <name>cafeteria</name>
+        <url>https://maven.cafeteria.dev</url>
+    </repository>
 </repositories>
 
 <dependencies>
-  <dependency>
+<dependency>
     <groupId>com.github.nanoflakes</groupId>
     <artifactId>nanoflakes-java</artifactId>
-    <version>LATEST</version> <!-- replace LATEST with the version above -->
-  </dependency>
+    <version>VERSION</version>
+</dependency>
 </dependencies>
 ```
 
