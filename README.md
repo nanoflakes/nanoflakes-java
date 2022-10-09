@@ -23,6 +23,9 @@ dependencies {
 }
 ```
 
+### Env variables required to build
+mcdUsername and mcdPassword are needed for maven repository authentication. They are stored in gradle.properties
+
 Using in Maven:
 
 ```xml
